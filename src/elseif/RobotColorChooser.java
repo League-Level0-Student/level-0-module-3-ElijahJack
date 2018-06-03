@@ -21,15 +21,15 @@ public class RobotColorChooser {
 		if (color.equals("red")) {
 	bob.setPenColor(250,0,0);
 }
-if (color.equals("blue")) {
+		else if (color.equals("blue")) {
 	bob.setPenColor(0,0,250);
 }
-if (color.equals("green")) {
+		else if (color.equals("green")) {
 	bob.setPenColor(0,250,0);
 }
         //6. If the user doesn’t enter anything, choose a random color
-if (color.equals("random")) {
-bob.setRandomPenColor();
+else {
+	bob.setRandomPenColor();
 }
 
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
